@@ -1,0 +1,17 @@
+{
+    "name": "ashwinig/php",
+    "authors": [
+        {
+            "name": "Ashwini Giri",
+            "email": "a.giri@easternenterprise.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.36",
+        "symfony/console": "^3.4",
+        "symfony/finder": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {"PHP\\": "src/calculator"}
+    }
+}
